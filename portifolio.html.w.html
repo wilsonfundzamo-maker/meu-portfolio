@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Portfólio - Wilson Cossa</title>
+
+</head>
+
+<body onload="document.body.classList.add('loaded')">
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div class="logo">Portfólio</div>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre-mim">Sobre Mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contactos">Contactos</a></li>
+        </ul>
+    </nav>
+
+   <!-- INÍCIO -->
+<section id="inicio">
+    <div class="inicio-card">
+        <div class="inicio-content">
+    
+            <div class="inicio-texto">
+                <h1>Wilson Herminio Cossa</h1>
+                <h2>Desenvolvedor Web | Técnico de Informática</h2>
+                <p>Sou apaixonado por tecnologia e design, com foco em desenvolvimento de websites modernos e responsivos. Gosto de transformar ideias em soluções digitais criativas.</p>
+                <a href="#sobre" class="btn">Saiba Mais</a>
+            </div>
+             <div class="inicio-foto">
+                <img src="WhatsApp Image 2025-09-30 at 19.15.32.jpeg" alt="wilson cossa">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE MIM -->
+<section id="sobre">
+    <h2>Sobre Mim</h2>
+    <div class="sobre-card">
+        <h3>Olá! Sou o Wilson Herminio Cossa 👋</h3>
+        <p>
+            Sou um jovem desenvolvedor web apaixonado por tecnologia e design moderno.  
+            Tenho interesse em criar websites interativos e funcionais, com foco em 
+            <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b> e <b>Python</b>.  
+            Busco constantemente aprender novas ferramentas e linguagens para evoluir
+            como profissional e contribuir em projetos inovadores.
+        </p>
+        <p>
+            Gosto de transformar ideias em experiências digitais que unem
+            estética e performance, sempre com atenção aos detalhes.
+        </p>
+        <a href="pro/sobre.mim.html" class="btn">Ver Mais</a>
+    </div>
+</section>
+
+<!-- HABILIDADES -->
+<section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="habilidades-grid">
+        <div class="card grande">
+            <h3>Desenvolvimento Web</h3>
+            <p>Criação de websites modernos e responsivos utilizando <b>HTML</b>, <b>CSS</b> e <b>JavaScript</b>. Aplicação de boas práticas de design, acessibilidade e interatividade.</p>
+        </div>
+        <div class="card">
+            <h3>Programação e Banco de Dados</h3>
+            <p>Criação de pequenos sistemas de gestão com base em <b>Python</b> e <b>MySQL</b>, aplicando conceitos de <b>UML</b> e <b>Programação Orientada a Objetos</b>.</p>
+        </div>
+        <div class="card">
+            <h3>Redes e Suporte Técnico</h3>
+            <p>Configuração e manutenção de redes locais (LAN), instalação de sistemas operativos, formatação de computadores e suporte a utilizadores.</p>
+        </div>
+        </div>
+    </div>
+    <a href="habilidades/projetos.html" class="btn">Ver Mais Habilidades</a>
+</section>
+
+<!-- PORTFÓLIO -->
+<section id="portfolio">
+    <h2>Portfólio</h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-card">
+            <img src="1.png" alt="Projeto 1">
+            <h3>Criação de Rede LAN</h3>
+            <p>Implementação de uma rede local estruturada para comunicação entre computadores.</p>
+            <a href="projeto4.html" target="_blank" class="btn-projeto">Ver Projeto</a>
+        </div>
+
+        <div class="portfolio-card">
+            <img src="Screenshot_8-10-2025_12443_.jpeg" alt="Projeto 2">
+            <h3>Bilhete de Identidade Digital</h3>
+            <p>Simulação de um bilhete de identidade com HTML e CSS, responsivo e moderno.</p>
+            <a href="b.i/B.I Wilson.html" target="_blank" class="btn-projeto">Ver Projeto</a>
+        </div>
+
+        <div class="portfolio-card">
+            <img src="Screenshot_8-10-2025_113146_.jpeg" alt="Projeto 3">
+            <h3>Relógio Digital</h3>
+            <p>Relógio dinâmico feito com JavaScript, exibindo a hora em tempo real.</p>
+            <a href="relogio/relogio.html" target="_blank" class="btn-projeto">Ver Projeto</a>
+        </div>
+    </div>
+
+    <!-- Botão fora dos cards -->
+    <div class="portfolio-btn">
+        <a href="trss/portifolio.html" class="btn">Ver Mais</a>
+    </div>
+</section>
+
+    <!-- GALERIA -->
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="img/1.png" alt="Imagem 1">
+            <img src="img/3.png" alt="Imagem 2">
+            <img src="img/4.png" alt="Imagem 3">
+            <img src="1.png"     alt="Imagem 4"> 
+        </div>
+    </section>
+
+<!-- CONTACTOS -->
+<section id="contacto">
+    <h2>Contactos</h2>
+
+    <div class="contact-card">
+        <form id="contactForm">
+            <div class="input-group">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="number">Número</label>
+                <input type="tel" id="number" name="number" placeholder="Digite seu número" required>
+            </div>
+
+            <div class="input-group">
+                <label for="message">Comentário</label>
+                <textarea id="message" name="message" placeholder="Escreva sua mensagem..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+
+        <div id="responseMessage" class="response"></div>
+    </div>
+</section>
+
+        <!-- Ícones de contacto -->
+        <div class="contact-icons">
+            <a href="mailto:wilsoncossa@gmail.com" target="_blank" aria-label="Email">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email">
+            </a>
+            <a href="https://wa.me/qr/AUCL4FU2IBS6O1" target="_blank" aria-label="WhatsApp">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp_Logo.svg" alt="WhatsApp">
+            </a>
+            <a href="https://github.com/WilsonCossa" target="_blank" aria-label="GitHub">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/wilson_cossa_248?igsh=ZHQycHZxYmFhZmo=" target="_blank" aria-label="Instagram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+</section>
+
+   <script>
+// Simulação de envio de formulário
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const nome = document.getElementById("name").value;
+    const response = document.getElementById("responseMessage");
+
+    response.style.display = "block";
+    setTimeout(() => {
+        response.classList.add("fadeIn");
+        response.innerHTML = `✅ Obrigado, <b>${nome}</b>! Sua mensagem foi enviada com sucesso.`;
+    }, 200);
+
+    document.getElementById("contactForm").reset();
+});
+
+// Transição suave ao aparecer na tela
+window.addEventListener("scroll", () => {
+    const contacto = document.querySelector("#contacto .contact-card");
+    const titulo = document.querySelector("#contacto h2");
+    const icones = document.querySelector(".contact-icons");
+    const pos = contacto.getBoundingClientRect().top;
+    const tela = window.innerHeight;
+
+    if (pos < tela - 100) {
+        contacto.classList.add("fadeIn");
+        titulo.classList.add("fadeIn");
+        icones.classList.add("fadeIn");
+    }
+});
+</script>
+
+</body>
+
+</html>
